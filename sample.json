@@ -1,0 +1,246 @@
+{
+  "farm": {
+    "id": "abc",
+    "name": "farm 1",
+    "description": "abc",
+    "map": {
+    },
+    "vietgap": {
+
+    },
+    "images": [],
+    "square": 1000
+  },
+  "project": {
+    "id": "abc",
+    "contractID": "abcd||0",
+    "farm": "abc",
+    "input": {
+      "tx": "abc",
+      "key1": "value1"
+    },
+    "output": {
+      "tx": "abc",
+      "key1": "value1"
+    },
+    "process": [
+      {
+        "tx": "abc",
+        "value": ""
+      }
+    ]
+  },
+  "qr": {
+    "project_id": "abc",
+    "list": [
+      {
+        "id": "abc",
+        "status": "buyed",
+        "clientID": "abc",
+        "date": "02/20/2023 15pm",
+        "tx": "abc"
+      }
+    ]
+  },
+  "user": {
+    "id": "abc",
+    "profile": {
+      "name": "abc",
+      "phone": "093838",
+      "email": "abc@gmail.com",
+      "birth": "01/01/2000",
+      "address": "04 ngach 24 PDG"
+    },
+    "history": [
+      {
+        "qr_id": "abc",
+        "date": "02/20/2023 15pm"
+      }
+    ]
+  },
+  "contract": {
+    "id": "abc",
+    "type": 1,
+    "plant": [
+      {
+        "name": "rauA",
+        "plan": {
+          "phan_bon": [
+            {
+              "name": "phan_bon 1",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            },
+            {
+              "name": "phan_bon 2",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            }
+          ],
+          "thuoc BVTV": [
+            {
+              "name": "BVTV 1",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            },
+            {
+              "name": "BVTV 2",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            }
+          ]
+        }
+      },
+      {
+        "name": "rauB",
+        "plan": {
+          "phan_bon": [
+            {
+              "name": "phan_bon 1",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            },
+            {
+              "name": "phan_bon 2",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            }
+          ],
+          "thuoc BVTV": [
+            {
+              "name": "BVTV 1",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            },
+            {
+              "name": "BVTV 2",
+              "amount_per_kg": 1000,
+              "description": "abc"
+            }
+          ]
+        }
+      }
+    ],
+    "clientID": "abc",
+    "projectID": "abc",
+    "note": "abc",
+    "tx_hash": "1bcd",
+    "delivery": [
+      {
+        "tx": "abc",
+        "date": "abcd",
+        "plant":[
+          {
+            "name": "rauA",
+            "amount": "100"
+          },
+          {
+            "name": "rauB",
+            "amount": "200"
+          }
+        ]
+      },
+      {
+        "tx": "abch",
+        "date": "abcd1",
+        "plant":[
+          {
+            "name": "rauA",
+            "amount": "100"
+          },
+          {
+            "name": "rauB",
+            "amount": "200"
+          }
+        ]
+      }
+    ]
+  },
+  "plantCultivate": {
+    "farmId": "abc",
+    "rauA": {
+      "price": 1000,
+      "seed": "basic",
+      "phan_bon": [
+        {
+          "name": "phan_bon 1",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        },
+        {
+          "name": "phan_bon 2",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        }
+      ],
+      "thuoc BVTV": [
+        {
+          "name": "BVTV 1",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        },
+        {
+          "name": "BVTV 2",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        }
+      ]
+    },
+    "rauA-seedX": {
+      "price": 1000,
+      "seed": "X korea",
+      "phan_bon": [
+        {
+          "name": "phan_bon 1",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        },
+        {
+          "name": "phan_bon 2",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        }
+      ],
+      "thuoc BVTV": [
+        {
+          "name": "BVTV 1",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        },
+        {
+          "name": "BVTV 2",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        }
+      ]
+    },
+    "rauB": {
+      "price": 1000,
+      "seed": "basic",
+      "phan_bon": [
+        {
+          "name": "phan_bon 1",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        },
+        {
+          "name": "phan_bon 2",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        }
+      ],
+      "thuoc BVTV": [
+        {
+          "name": "BVTV 1",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        },
+        {
+          "name": "BVTV 2",
+          "amount_per_kg": 1000,
+          "description": "abc"
+        }
+      ]
+    }
+  }
+}
