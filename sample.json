@@ -158,89 +158,65 @@
   },
   "plantCultivate": {
     "farmId": "abc",
-    "rauA": {
-      "price": 1000,
-      "seed": "basic",
-      "phan_bon": [
-        {
-          "name": "phan_bon 1",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        },
-        {
-          "name": "phan_bon 2",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        }
-      ],
-      "thuoc BVTV": [
-        {
-          "name": "BVTV 1",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        },
-        {
-          "name": "BVTV 2",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        }
-      ]
-    },
-    "rauA-seedX": {
-      "price": 1000,
-      "seed": "X korea",
-      "phan_bon": [
-        {
-          "name": "phan_bon 1",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        },
-        {
-          "name": "phan_bon 2",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        }
-      ],
-      "thuoc BVTV": [
-        {
-          "name": "BVTV 1",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        },
-        {
-          "name": "BVTV 2",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        }
-      ]
-    },
-    "rauB": {
-      "price": 1000,
-      "seed": "basic",
-      "phan_bon": [
-        {
-          "name": "phan_bon 1",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        },
-        {
-          "name": "phan_bon 2",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        }
-      ],
-      "thuoc BVTV": [
-        {
-          "name": "BVTV 1",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        },
-        {
-          "name": "BVTV 2",
-          "amount_per_kg": 1000,
-          "description": "abc"
-        }
-      ]
-    }
+    "plan": [
+      {
+        "name": "abc",
+        "price": 1000,
+        "seed": "basic",
+        "phan_bon": [
+          {
+            "name": "phan_bon 1",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          },
+          {
+            "name": "phan_bon 2",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          }
+        ],
+        "thuoc BVTV": [
+          {
+            "name": "BVTV 1",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          },
+          {
+            "name": "BVTV 2",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          }
+        ]
+      },
+      {
+        "name": "abc X korea",
+        "price": 1000,
+        "seed": "x korea",
+        "phan_bon": [
+          {
+            "name": "phan_bon 1",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          },
+          {
+            "name": "phan_bon 2",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          }
+        ],
+        "thuoc BVTV": [
+          {
+            "name": "BVTV 1",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          },
+          {
+            "name": "BVTV 2",
+            "amount_per_kg": 1000,
+            "description": "abc"
+          }
+        ]
+      }
+    ]
   }
 }
