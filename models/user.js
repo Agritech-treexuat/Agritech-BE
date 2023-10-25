@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema({
     birth: String,
     address: String,
   },
+  password: String, // Thêm trường password
   history: [{
     qr_id: String,
     date: String,
